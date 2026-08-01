@@ -1,7 +1,25 @@
 aid: payment24
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payment24.png
 name: Payment24
-description: Payment24 is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Payment24 is a white-label payment platform specializing in fuel and fleet payment
+  solutions for oil companies, banks, and retailers, primarily across Africa. Its technology lets
+  clients design and launch branded payment products under their own name — fuel payments and mobile
+  payments, loyalty and rewards, POS terminals, electronic vouchers, B2B and B2C prepaid and
+  store-account cards, EV charging payments, and wet-stock and fuel-in-tank management — alongside
+  banking-grade issuing, acquiring, card management, and merchant management, plus fleet fuel
+  management and telematics. Payment24 operates as a technology partner rather than a public
+  self-serve API provider, so it publishes no open developer portal or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/payment24/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payments
+- Fuel Payments
+- Fleet Management
+- Prepaid Cards
+- Loyalty
+- Card Issuing
+- Acquiring
+- Point of Sale
+- EV Charging
+- Telematics
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://payment24.co
+  url: https://www.payment24.co.za/
+- type: Blog
+  url: https://payment24.co.za/latest-news/
+- type: Support
+  url: https://payment24.co.za/frequently-asked-questions/
+- type: TermsOfService
+  url: https://payment24.co.za/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://payment24.co.za/privacy-policy/
+- type: DomainSecurity
+  url: security/payment24-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
